@@ -10971,7 +10971,7 @@ Transform:
   m_LocalScale: {x: 0.24855162, y: 0.49662182, z: 0.12909292}
   m_Children: []
   m_Father: {fileID: 547359321}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 184.28, y: 155.951, z: 94.813995}
 --- !u!136 &155518377
 CapsuleCollider:
@@ -15778,6 +15778,73 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 461245464}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &470401793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 470401795}
+  - component: {fileID: 470401794}
+  m_Layer: 0
+  m_Name: Flame Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &470401794
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 470401793}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &470401795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 470401793}
+  m_LocalRotation: {x: -0.12700757, y: -0.18983257, z: 0.043240402, w: 0.9726063}
+  m_LocalPosition: {x: 0.45009, y: 0.41092506, z: -1.7423846}
+  m_LocalScale: {x: 0.5597444, y: 0.8742016, z: 1.0151168}
+  m_Children:
+  - {fileID: 1848400877}
+  m_Father: {fileID: 547359321}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -13.335001, y: -23.003, z: 7.8160005}
 --- !u!1 &473117951
 GameObject:
   m_ObjectHideFlags: 0
@@ -16335,7 +16402,7 @@ Transform:
   m_LocalScale: {x: 1.4051803, y: 0.025895476, z: 1.2057123}
   m_Children: []
   m_Father: {fileID: 547359321}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -91.27, y: 0, z: -90.39099}
 --- !u!1 &485723615
 GameObject:
@@ -17410,6 +17477,7 @@ Transform:
   m_Children:
   - {fileID: 1883112028}
   - {fileID: 140573014}
+  - {fileID: 470401795}
   - {fileID: 1452065872}
   - {fileID: 1040153593}
   - {fileID: 155518376}
@@ -22453,7 +22521,7 @@ Transform:
   m_LocalScale: {x: 0.24832125, y: 0.47926098, z: 0.11865212}
   m_Children: []
   m_Father: {fileID: 547359321}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 183.859, y: 151.11499, z: 95.158}
 --- !u!136 &1040153594
 CapsuleCollider:
@@ -24490,7 +24558,7 @@ Transform:
   m_LocalScale: {x: 1.2550168, y: 0.035122, z: 1.2796808}
   m_Children: []
   m_Father: {fileID: 547359321}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1196277293
 GameObject:
@@ -26117,11 +26185,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1387110386}
   m_LocalRotation: {x: -0.49378034, y: -0.5169812, z: -0.50564045, w: 0.4829485}
-  m_LocalPosition: {x: 0.009371831, y: 0.97766036, z: -2.630439}
+  m_LocalPosition: {x: 0.045, y: 0.978, z: -2.627}
   m_LocalScale: {x: 1.4051803, y: 0.025895476, z: 1.2057123}
   m_Children: []
   m_Father: {fileID: 547359321}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: -91.27, y: 0, z: -92.630005}
 --- !u!64 &1387110388
 MeshCollider:
@@ -27760,7 +27828,7 @@ Transform:
   m_LocalScale: {x: 0.24809226, y: 0.51310515, z: 0.10905344}
   m_Children: []
   m_Father: {fileID: 547359321}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 183.859, y: 151.11499, z: 95.158}
 --- !u!136 &1452065873
 CapsuleCollider:
@@ -31922,6 +31990,51 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1828556850}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1848400875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1848400877}
+  - component: {fileID: 1848400876}
+  m_Layer: 0
+  m_Name: Flame Light Probe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!220 &1848400876
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1848400875}
+  m_Enabled: 1
+  m_SourcePositions:
+  - {x: 5.1725802, y: 3.774895, z: 12.666398}
+  - {x: 2.3555908, y: 4.060808, z: -1}
+  - {x: 4.833875, y: 0.07294908, z: 12.515285}
+  - {x: 1.8807987, y: 0.11927697, z: -1.1763465}
+  - {x: -5.8428545, y: 2.9292517, z: 11.424656}
+  - {x: -9.078437, y: 4.102378, z: -0.5427172}
+  - {x: -6.0465064, y: -0.5623101, z: 11.1638155}
+  - {x: -9.32287, y: 0.12640464, z: -0.58727324}
+--- !u!4 &1848400877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1848400875}
+  m_LocalRotation: {x: 0.12700757, y: 0.18983257, z: -0.043240402, w: 0.9726063}
+  m_LocalPosition: {x: -0.7612163, y: -0.5930612, z: 0.7138845}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 470401795}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1850499186
 GameObject:
   m_ObjectHideFlags: 0
@@ -33303,7 +33416,7 @@ Transform:
   m_LocalScale: {x: 1.0533714, y: 0.9148167, z: 1.2672377}
   m_Children: []
   m_Father: {fileID: 547359321}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -91.270996, y: 0, z: 0}
 --- !u!64 &1931157160
 MeshCollider:
